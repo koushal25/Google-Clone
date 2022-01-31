@@ -1,0 +1,152 @@
+body{
+    background-image: url("backgrd.jpg");
+}
+.container1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.grp{
+    color: rgb(252, 252, 252);
+    margin: 8px;
+    padding: 4px;
+}
+.grp:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#input {
+    border: none;
+    outline: none;
+     width: 87%; 
+     padding-left: 20px;
+    font-size: 16px;
+}
+#search{
+    padding-left: 15px;
+}
+.container2{
+ /* width: 550px; */
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-position: center;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#google{
+    background-color: darkorchid;
+    width: 490px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+    height:180px;
+}
+#search1{
+    display: flex;
+    align-items: center;
+    height: 44px;
+    border-radius: 40px; 
+    width: 38%; 
+    margin:  0px auto;
+    margin-top: 20px; 
+    background-color: white;
+}
+.grp2{
+    color: rgb(252, 252, 252);
+    margin: 25px;
+    padding: 14px;
+    text-align: center;
+    font-weight: bolder;
+}
+.dot2{
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    color: rgb(96, 112, 80);
+    font-size: 30px;
+}
+.dot2:hover{
+    cursor: pointer;
+    background-color: rgb(96, 159, 201);
+}
+.grp3{
+    color: rgb(252, 252, 252);
+   
+    margin: 8px 25px;
+    padding: 14px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(96, 112, 80);
+}
+#bottom{
+    align-items: center;
+    display: flex;
+    justify-content: start;
+    font-family: cursive;
+    }
+
+.p{
+    font-size: 15px;
+    padding-right: 20px;
+    text-align: center;
+    align-items: center;
+    padding-top: 4px;
+}
+#foot{
+    height: 0px ;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+    padding-top: 10px;
+    padding-left: 22px;
+    font-family: cursive;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+     /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+
+  }
+  .material-icons:hover{
+      cursor: pointer;
+      color: gray;
+  }
+  .edit{
+      color: white;
+  }
